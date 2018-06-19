@@ -11,7 +11,7 @@ from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
     login="xenmaldives",
-    password="an0nym0us",
+    password="Password",
     like_per_day=2000,
     comments_per_day=0,
     tag_list=['follow4follow', 'f4f', 'cute', 'maldives', 'maldivesislands', 'maldivesresorts',
