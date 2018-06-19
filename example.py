@@ -10,8 +10,8 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="xenmaldives",
-    password="an0nym0us",
+    login="hotel.maldives",
+    password="z3nchinx",
     like_per_day=2000,
     comments_per_day=0,
     tag_list=['follow4follow', 'f4f','maldives', 'maldivesislands', 'maldivesresorts',
@@ -67,7 +67,7 @@ while True:
     # DON'T USE MODE 5 FOR A LONG PERIOD. YOU RISK YOUR ACCOUNT FROM GETTING BANNED
     ## USE MODE 5 IN BURST MODE, USE IT TO UNFOLLOW PEOPLE AS MANY AS YOU WANT IN SHORT TIME PERIOD
 
-    mode = 4
+    mode = 1
 
     #print("You choose mode : %i" %(mode))
     #print("CTRL + C to cancel this operation or wait 30 seconds to start")
