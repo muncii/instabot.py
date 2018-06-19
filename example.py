@@ -24,7 +24,7 @@ bot = InstaBot(
     unfollow_per_day=1000,
     unfollow_break_min=15,
     unfollow_break_max=30,
-    log_mod=4,
+    log_mod=0,
     proxy='',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
@@ -67,7 +67,7 @@ while True:
     # DON'T USE MODE 5 FOR A LONG PERIOD. YOU RISK YOUR ACCOUNT FROM GETTING BANNED
     ## USE MODE 5 IN BURST MODE, USE IT TO UNFOLLOW PEOPLE AS MANY AS YOU WANT IN SHORT TIME PERIOD
 
-    mode = 0
+    mode = 1
 
     #print("You choose mode : %i" %(mode))
     #print("CTRL + C to cancel this operation or wait 30 seconds to start")
