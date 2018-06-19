@@ -11,10 +11,10 @@ from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
     login="xenmaldives",
-    password="Password",
+    password="an0nym0us",
     like_per_day=2000,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute', 'maldives', 'maldivesislands', 'maldivesresorts',
+    tag_list=['follow4follow', 'f4f','maldives', 'maldivesislands', 'maldivesresorts',
               'couplegoals', 'couple', 'wedding', 'weddingdress', 'weddingwire', 'weddings', 'weddingday','weddingphotography', 'weddinginspo', 'weddingphoto', 'weddingdecor', 'weddingstyle', 'weddingfun', 'weddingtime', 'weddingseason', 'weddingceremony', 'weddingparty  weddingideas', 'weddingcake', 'weddingmakeup', 'weddinghair', 'videographylife', 'videography', 'videographywedding', 'weddingvideography', 'videography🎥', 'aerialvideography', 'videographystudio', 'videographyservice', 'travelvideography', 'videographybali', 'iphonevideography', 'underwatervideography', 'mobilevideography', 'videographyislife', 'photography', 'photographylover', 'photography_aks', 'photographytips', 'photography_top', 'photographyy', 'photography📷', 'photography_lovers', 'photography📸'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
@@ -24,7 +24,7 @@ bot = InstaBot(
     unfollow_per_day=1000,
     unfollow_break_min=15,
     unfollow_break_max=30,
-    log_mod=0,
+    log_mod=1,
     proxy='',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
